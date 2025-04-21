@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">My Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Introduction and Summary -->
+    <section id="intro" class="section intro">
+        <div class="intro-content">
+            <h1>Hi, I'm Harsh Soni</h1>
+            <h2>Tech Enthusiast</h2>
+            <p>Welcome to my portfolio! I'm passionate about building innovative solutions and creating impactful projects. Explore my work below.</p>
+            <a href="resume.pdf" class="btn" download>Download Resume</a>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p>I'm a junior-year student pursuing Bachelor of Technology in Computer Science and Engineering at Lovely Professional University. I specialize in Machine Learning. My goal is to develop innovative and impactful software. In my free time, I enjoy playing outdoor sports.</p>
+        </div>
+    </section>
+
+    <!-- Skills and Technologies -->
+    <section id="skills" class="section skills">
+        <h2>Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-card">HTML5</div>
+            <div class="skill-card">CSS3</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">Java</div>
+            <div class="skill-card">C/C++</div>
+            <div class="skill-card">Python</div>
+            <div class="skill-card">Git/GitHub</div>
+            <div class="skill-card">SQL</div>
+            <div class="skill-card">Linux</div>
+            <div class="skill-card">Computer Vision</div>
+            <div class="skill-card">Natural Language Processing</div>
+            <div class="skill-card">Machine Learning</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Risk-Sensitive Cartpole Balancing</h3>
+                <p>A tool that employs risk-sensitive reinforcement learning algorithms to balance a pole on a cart.</p>
+                <a href="https://github.com/harsh100ni/risk_sensitive_rl_cartpole_balancing/blob/main/INT423_pro.ipynb" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Binary Sentiment Analyzer</h3>
+                <p>A tool that classifies movie reviews of IMDb dataset into one of the two categories, namely positive and negative.</p>
+                <a href="https://github.com/harsh100ni/binary_sentiment_analyzer/blob/main/INT344_pro.ipynb" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Real Estate Value Predictor</h3>
+                <p>A tool that employs multiple regressive machine learning models to predict the value of real estate considering various crucial
+                    factors.</p>
+                <a href="https://github.com/harsh100ni/real_estate_value_predictor/blob/main/real_estate_valuation.ipynb" class="btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Restaurant Billing System</h3>
+                <p>A tool that streamlines the process of billing the food ordered by the customers at a restaurant.</p>
+                <a href="https://github.com/harsh100ni/restaurant_billing_system/blob/main/restaurant_billing_system.c" class="btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section id="certifications" class="section certifications">
+        <h2>Certifications</h2>
+        <ul class="certifications-list">
+            <li>
+                <h3>Advanced Distributed Systems</h3>
+                <p>NPTEL, November 2024</p>
+            </li>
+            <li>
+                <h3>Product Management</h3>
+                <p>CipherSchools, July 2024</p>
+            </li>
+            <li>
+                <h3>Community Development</h3>
+                <p>Meenakshi Shiksha Samiti, July 2023</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> harshsoni921@aol.com</p>
+            <p><i class="fas fa-phone"></i> +91-8290214482</p>
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/harshsoni12217311/">LinkedIn</a></p>
+            <p><i class="fab fa-github"></i> <a href="https://github.com/harsh100ni">GitHub</a></p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Harsh Soni. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
